@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <section class="banner">
+        <div class="banner-image">
+            <!-- Navbar -->
+            <header class="header">
+                <div class="logo">
+                    <h2><a href="#home"> Travel Website</a></h2>
+                </div>
+                <nav class="nav-list" id="toggle">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about-us">About</a></li>
+                        <li><a href="#contact">Contact us</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </nav>
+                <div class="bars">
+                    <i class="fa-solid fa-bars" id="open" onclick="myFunc()"></i>
+                </div>
+            </header>
+
+            <div class="banner-heading">
+                <h1>Welcome to tour and travels</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sit
+                    nihil a voluptatum esse ad accusamus eos, alias quasi rem!
+                </p>
+                <a href="#">click here</a>
+            </div>
+        </div>
+    </section>
+    <!-- caroosaul -->
+    <!-- <section class="carosoul">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1552733407-5d5c46c3bb3b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100 img-fluid" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHRyYXZlbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100 img-fluid" alt="...">
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- package section -->
+    <section class="package" id="services">
+        <h1 class="services">Our services</h1>
+        <div class="top-package">
+            <div class="img">
+
+            </div>
+            <div class="data">
+                <h1>Deganvy uk</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus hic cupiditate quidem sint
+                    animi quaerat? Architecto mollitia omnis dicta maxime!
+                </p>
+                <a href="#">visit</a>
+            </div>
+        </div>
+        <div class="bottom-package">
+            <div class="img">
+
+            </div>
+            <div class="data">
+                <h1>desert egypt</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae, rerum culpa ipsam commodi
+                    nulla voluptas porro. Nesciunt harum et nulla.
+                </p>
+                <a href="#">visit</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section -->
+    <section class="about-us" id="about-us">
+        <h1>recently visited</h1>
+        <div class="cities">
+            <!-- card1 -->
+            <div class="cards-city">
+                <img src="https://images.pexels.com/photos/8141163/pexels-photo-8141163.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image1">
+                <h3>united state</h3>
+                <p>Lorem ipsum dolor sit amet, consecteturab </p>
+
+                <a href="#">visit</a>
+            </div>
+            <div class="cards-city">
+                <img src="https://images.pexels.com/photos/3620713/pexels-photo-3620713.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image1">
+                <h3>united kingdom</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, illo?</p>
+                <a href="#">visit</a>
+            </div>
+            <div class="cards-city">
+                <img src="https://images.pexels.com/photos/2563386/pexels-photo-2563386.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image1">
+                <h3>india</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, magni!</p>
+
+                <a href="#">visit</a>
+            </div>
+            <div class="cards-city">
+                <img src="https://images.pexels.com/photos/746393/pexels-photo-746393.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image1">
+                <h3>turkey</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nesciunt.</p>
+
+                <a href="#">visit</a>
+            </div>
+            <div class="cards-city">
+                <img src="https://images.pexels.com/photos/3933508/pexels-photo-3933508.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image1">
+                <h3>malasiya</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, quasi!</p>
+
+                <a href="#">visit</a>
+            </div>
+            <div class="cards-city">
+                <img src="https://images.pexels.com/photos/599982/pexels-photo-599982.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image1">
+                <h3>indonesia</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, voluptates.</p>
+
+                <a href="#">visit</a>
+            </div>
+            <div class="cards-city">
+                <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image1">
+                <h3>afganistan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, maxime?</p>
+
+                <a href="#">visit</a>
+            </div>
+            <div class="cards-city">
+                <img src="https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    alt="image1">
+                <h3>pakistan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, repellat?</p>
+                <a href="#">visit</a>
+            </div>
+            <!-- card2 -->
+
+        </div>
+    </section>
+    <!-- contact us section -->
+    <section class="contact-us" id="contact">
+        <h1 class="contact-heading">contact us</h1>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30250.0736361322!2d87.86292682873615!3d24.62303426602384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa420c696c2f4f%3A0x42a78acc205eff5d!2sHiranandpur%2C%20Jharkhand%20816107!5e0!3m2!1sen!2sin!4v1664129911416!5m2!1sen!2sin"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <address class="address">
+            <div class="address-data">
+                <h2>Piyush Tarapada</h2>
+                <h4><strong>room no:</strong><span>L-9** Rajhans Heights</span></h4>
+                <p>plot no: 13, sector :9</p>
+                <p>Pasodara</p>
+                <p><strong>Surat </strong>Jagat Naka Surat</p>
+                <p><strong>816105</strong></p>
+                <p><strong>mob: 1234567890</strong></p>
+            </div>
+            <div class="address-form">
+                <h1>Contact Form</h1>
+                <form action="" autocomplete="off">
+
+                    <input type="text" id="name" placeholder="Enter Name">
+
+                    <input type="email" id="email" placeholder="Enter email">
+
+                    <textarea name="query" id="query" cols="30" rows="10" placeholder="enter text">
+
+                </textarea>
+                    <button type="button">Submit</button>
+                </form>
+            </div>
+        </address>
+    </section>
+    <!-- footer section -->
+    <footer class="footer">
+        <h2 class="footer-heading">Travel Website</h2>
+        <div class="footer-box">
+            <div class="f-box-item">
+                <h3>Solutions</h3>
+                <ul>
+                    <li>first line</li>
+                    <li>second line</li>
+                    <li>third line</li>
+                    <li>fourth line</li>
+
+                </ul>
+            </div>
+            <div class="f-box-item">
+                <h3>Products</h3>
+                <ul>
+                    <li>first line</li>
+                    <li>second line</li>
+                    <li>third line</li>
+                    <li>fourth line</li>
+                    <li>fifth line</li>
+                    <li>fifth line</li>
+                </ul>
+            </div>
+            <div class="f-box-item">
+                <h3>Resources</h3>
+                <ul>
+                    <li>first line</li>
+                    <li>second line</li>
+                    <li>third line</li>
+                    <!-- <li>fourth  line</li>
+                <li>fifth  line</li> -->
+                </ul>
+            </div>
+            <div class="f-box-item">
+                <h3>Company</h3>
+                <ul>
+                    <li>first line</li>
+                    <li>second line</li>
+                    <li>third line</li>
+                    <li>fourth line</li>
+                    <li>fifth line</li>
+                </ul>
+            </div>
+            <div class="f-box-item last-child">
+                <div class="footer-card">
+                    <div class="footer-card-box">
+                        <p>937-4683469234</p>
+                        <p>suport@gmail.com</p>
+                    </div>
+                    <div class="footer-card-box-btm">
+                        <p>900-140 10th avenue SE</p>
+                        <p>Calgary, AB T2G DRT</p>
+                    </div>
+                </div>
+                <div class="social-links">
+
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-cr">
+            <p>copy right</p>
+            <p>
+                developed by Piyush Tarapada
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
